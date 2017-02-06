@@ -122,7 +122,7 @@ int main()
 	auto v1 = RunTimeArray();
 
 	v1 = v0;
-	assert(v1 == v0);
+	assert(v0 == v1);
 
 	return 0;
 }
